@@ -5,8 +5,8 @@
 rm(list = ls(all.names = TRUE))
 
 #Load the required libraries: 
-library(ggplot2)
-library(dplyr)
+library(ggplot2)    #Version 3.5.1
+library(dplyr)      #Version 1.1.4
 
 #Read in the DEG files (from DESeq2):
 MA_df <- read.csv("Brady_DEG_MAvsMock.csv")
